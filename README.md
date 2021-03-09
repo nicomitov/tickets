@@ -5,9 +5,14 @@
 A simple ticketing system, based on Laravel 7.x, Bootstrap 4.6 and ModularAdmin Dashboard Theme.
 
 Integrated features:
+- auth system (Laravel), employees, departments, roles
+- policy based permissions
+- notifications (Laravel - email, array)
+- ticketing system with statuses, categories and priorities
 - datatables
 - filemanager
 - fontawesome icons
+- auto generated avatars
 - tinymce
 - bootstrap multiselect
 
