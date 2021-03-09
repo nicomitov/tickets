@@ -4,14 +4,15 @@
 
 A simple ticketing system, based on Laravel 7.x, Bootstrap 4.6 and ModularAdmin Dashboard Theme.
 
-Integrated:
+Integrated features:
 - datatables
 - filemanager
 - fontawesome icons
 - tinymce
 - bootstrap multiselect
 
-How to start this prject?
+
+## How to start this prject?
 
 **1. Clone this repo**
 
