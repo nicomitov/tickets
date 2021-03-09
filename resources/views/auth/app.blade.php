@@ -25,15 +25,10 @@
             <div class="card">
 
                 <header class="auth-header">
-                    <a href="/"><img src="/images/logo_1.svg" style="width:126px;"></a>
-                    {{-- <h1 class="auth-title">
-                        <div class="logo">
-                            <span class="l l1"></span>
-                            <span class="l l2"></span>
-                            <span class="l l3"></span>
-                            <span class="l l4"></span>
-                            <span class="l l5"></span>
-                        </div> ModularAdmin </h1> --}}
+                    <a href="/" class="font-weight-bold">
+                        {{-- <img src="/images/logo_1.svg" style="width:126px;"> --}}
+                        TICKETS
+                    </a>
                 </header>
 
                 <div class="auth-content">
