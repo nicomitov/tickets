@@ -1,11 +1,15 @@
 # tickets
+
+![Screenshot from 2021-03-09 16-24-34](https://user-images.githubusercontent.com/10790795/110485107-fa51b880-80f3-11eb-9610-3218914b4fa8.png)
+
 Simple ticket system, based on Laravel 7.x, Bootstrap 4.6 and ModularAdmin Dashboard Theme.
 
-Included: 
+Included:
 - datatables
 - filemanager
 - fontawesome icons
 - tinymce
+- bootstrap multiselect
 
 How to start this prject?
 
