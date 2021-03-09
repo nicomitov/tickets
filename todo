@@ -1,0 +1,5 @@
+
+php artisan migrate --seed
+composer install
+npm install
+npm run dev
