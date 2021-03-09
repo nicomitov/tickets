@@ -23,7 +23,7 @@ How to start this prject?
     npm install
     npm run dev
 
-**3. Rename .env.example to .env and add these lines**
+**3. Rename `.env.example` to `.env` and add these lines**
 
     APP_VERSION=0.0.1-dev
     ALLOW_REGISTRATION=false
