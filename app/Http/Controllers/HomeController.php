@@ -33,9 +33,17 @@ class HomeController extends Controller
         $pending_tickets = $all_tickets->where('status_id', 1);
         $solved_tickets = $all_tickets->where('status_id', 2);
         $outdated_tickets = $all_tickets->where('status_id', 4);
-        $pending_tickets_perc = round($pending_tickets->count() * 100 / $all_tickets->count());
-        $solved_tickets_perc = round($solved_tickets->count() * 100 / $all_tickets->count());
-        $outdated_tickets_perc = round($outdated_tickets->count() * 100 / $all_tickets->count());
+
+        if ($all_tickets->count()) {
+            $pending_tickets_perc = round($pending_tickets->count() * 100 / $all_tickets->count());
+            $solved_tickets_perc = round($solved_tickets->count() * 100 / $all_tickets->count());
+            $outdated_tickets_perc = round($outdated_tickets->count() * 100 / $all_tickets->count());
+        } else {
+            $pending_tickets_perc = 0;
+            $solved_tickets_perc = 0;
+            $outdated_tickets_perc = 0;
+        }
+
 
         // employees
         $employees_count = User::all()->count();

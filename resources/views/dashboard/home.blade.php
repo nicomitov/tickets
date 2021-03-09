@@ -42,7 +42,9 @@
                                 'tickets' => $all_tickets->take(6)
                             ])
                         @else
+                        <div class="col-12 mt-3">
                             @include('partials.noentries')
+                        </div>
                         @endif
                     @endcan
                 </div>

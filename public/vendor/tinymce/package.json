@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "tinymce@4.9.11",
+      "/home/www/laravel/tickets"
+    ]
+  ],
   "_from": "tinymce@4.9.11",
   "_id": "tinymce@4.9.11",
   "_inBundle": false,
@@ -16,21 +22,17 @@
     "fetchSpec": "4.9.11"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/tinymce/-/tinymce-4.9.11.tgz",
-  "_shasum": "e3dae099722294c5b8d84ba7ef18dd126de6b582",
-  "_spec": "tinymce@4.9.11",
-  "_where": "/home/www/laravel/todo2",
+  "_spec": "4.9.11",
+  "_where": "/home/www/laravel/tickets",
   "author": {
     "name": "Ephox Corporation"
   },
   "bugs": {
     "url": "https://github.com/tinymce/tinymce/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "Web based JavaScript HTML WYSIWYG editor control.",
   "homepage": "https://github.com/tinymce/tinymce-dist#readme",
   "keywords": [
