@@ -17,7 +17,7 @@ Integrated features:
 - bootstrap multiselect
 
 
-## How to start this prject?
+## How to start this project?
 
 **1. Clone this repo**
 
